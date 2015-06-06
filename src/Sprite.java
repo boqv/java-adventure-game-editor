@@ -31,7 +31,7 @@ public class Sprite implements Comparable <Sprite> {
 		} catch (IOException e) {}
 	}
 	
-	//kommentaren
+	//kommentaren #2
 	public int getHeight(){
 		return sprite[0].getHeight();
 	}
