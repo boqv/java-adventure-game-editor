@@ -9,9 +9,6 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -51,7 +48,7 @@ public class Main extends JPanel implements MouseListener, MouseMotionListener, 
 				while(true){
 					now = System.currentTimeMillis();
 					
-					if(now - last > 14){
+					if(now - last > 8){
 						repaint();
 						last = now;
 					}
